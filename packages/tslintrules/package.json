@@ -1,6 +1,6 @@
 {
-  "name": "@harmony/tslintrules",
-  "version": "1.0.1",
+  "name": "@harmony102/tslintrules",
+  "version": "1.0.2",
   "scripts": {
     "lint": "tslint \"src/**/*.ts\"",
     "test": "tslint --test ./test/rules/"
