@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/angular-app",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +12,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
@@ -23,9 +23,10 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
-    "@harmony102/core-styles": "^1.0.24",
-    "@harmony102/tslintrules": "^1.0.2",
+    "@harmony102/core-styles": "^1.0.25",
+    "@harmony102/tslintrules": "^1.0.3",
     "core-js": "^2.5.4",
+    "foo": "^0.0.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
