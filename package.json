@@ -1,15 +1,18 @@
 {
-  "name": "harmony",
+  "name": "harmony102",
   "version": "1.0.0",
   "description": "this is a demo for angular, lerna, and yarn workspaces working in harmony",
   "main": "index.js",
-  "repository": "https://github.com/feldmanz66/harmony.git",
+  "repository": "https://github.com/BzenkoSergey/harmony.git",
   "author": "Zach Feldman",
   "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "lerna run build",
     "cleanup": "lerna clean --yes && rm -rf ./node_modules",
@@ -17,10 +20,10 @@
     "test": "lerna run test",
     "lint": "lerna run lint",
     "prettier": "lerna run prettier",
-    "publish": "lerna publish"
+    "publish": "lerna publish --access public"
   },
   "devDependencies": {
-    "lerna": "^3.4.3",
+    "lerna": "^2.11.0",
     "prettier": "^1.7.4"
   },
   "dependencies": {
