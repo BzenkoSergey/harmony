@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/core-styles",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "node-sass": "^4.5.3",
     "prettier": "^1.10.2",
