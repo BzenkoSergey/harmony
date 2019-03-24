@@ -23,7 +23,7 @@
     "publish": "lerna publish --access public"
   },
   "devDependencies": {
-    "lerna": "^2.11.0",
+    "lerna": "3.13.1",
     "prettier": "^1.7.4"
   },
   "dependencies": {
