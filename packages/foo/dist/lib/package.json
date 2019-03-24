@@ -1,0 +1,21 @@
+{
+  "name": "@harmony102/foo",
+  "version": "0.0.17",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/harmony102-foo.umd.js",
+  "module": "fesm5/harmony102-foo.js",
+  "es2015": "fesm2015/harmony102-foo.js",
+  "esm5": "esm5/harmony102-foo.js",
+  "esm2015": "esm2015/harmony102-foo.js",
+  "fesm5": "fesm5/harmony102-foo.js",
+  "fesm2015": "fesm2015/harmony102-foo.js",
+  "typings": "harmony102-foo.d.ts",
+  "metadata": "harmony102-foo.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
