@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/tslintrules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "lint": "tslint \"src/**/*.ts\"",
     "test": "tslint --test ./test/rules/"
@@ -11,7 +11,7 @@
     "typescript": "^2.2.1"
   },
   "dependencies": {
-    "foo": "^0.0.0",
+    "foo": "^0.0.7",
     "minimatch": "^3.0.4",
     "path": "^0.12.7",
     "tsutils": "^2.8.2"
