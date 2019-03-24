@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "publish": "lerna publish --contents dist/lib",
     "prepublish": "ng build lib"
   },
   "publishConfig": {
