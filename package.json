@@ -10,9 +10,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "lerna run build",
     "cleanup": "lerna clean --yes && rm -rf ./node_modules",
