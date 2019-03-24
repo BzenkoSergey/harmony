@@ -1,13 +1,13 @@
 {
   "name": "@harmony102/core-styles",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "echo \"this is the build script fot core-styles\""
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "private": false,
   "devDependencies": {
