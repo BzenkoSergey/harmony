@@ -16,8 +16,7 @@
     "lerna": "lerna",
     "test": "lerna run test",
     "lint": "lerna run lint",
-    "prettier": "lerna run prettier",
-    "publish": "lerna publish --access public"
+    "prettier": "lerna run prettier"
   },
   "devDependencies": {
     "lerna": "3.13.1",
