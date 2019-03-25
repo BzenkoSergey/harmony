@@ -1,9 +1,9 @@
 {
   "name": "@harmony102/foo",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "peerDependencies": {
-    "@angular/common": "^7.2.0",
-    "@angular/core": "^7.2.0"
+    "@angular/common": "7.2.10",
+    "@angular/core": "7.2.10"
   },
   "main": "bundles/harmony102-foo.umd.js",
   "module": "fesm5/harmony102-foo.js",
