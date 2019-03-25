@@ -2,6 +2,11 @@
   "packages": [
     "packages/*"
   ],
+  "nohoist": [
+	"**/@angular*",
+	"**/@angular*/**",
+	"**/ng-packagr"
+  ],
   "version": "independent",
   "npmClient": "yarn",
   "stream": true,

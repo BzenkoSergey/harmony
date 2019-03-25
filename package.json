@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "lerna": "3.13.1",
-    "prettier": "^1.7.4"
+	"prettier": "^1.7.4",
+    "tsickle": "0.34.3",
+    "ng-packagr": "4.7.1"
   },
   "dependencies": {
     "@angular/cli": "^7.0.3"

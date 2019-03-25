@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'enl-lib',
   template: `
     <p>
-      lib wohrkfgh11js!s
+      12312312312312 wohrkfgh11js!s
     </p>
   `,
   styles: []

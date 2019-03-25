@@ -13,6 +13,12 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "@harmony102/foo": [
+        "node_modules/@harmony102/foo",
+        "./../foo/src/public-api.ts"
+      ]
+    },
     "lib": [
       "es2018",
       "dom"
