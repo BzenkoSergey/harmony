@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/foo",
-  "version": "0.0.9",
+  "version": "0.0.24",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

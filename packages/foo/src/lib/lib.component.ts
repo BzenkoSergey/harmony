@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'enl-lib',
   template: `
     <p>
-      12312312312312 wohrkfgh11js!s
+      === wohrkfgh11js!s123123123
     </p>
   `,
   styles: []
