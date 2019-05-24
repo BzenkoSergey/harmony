@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/foo",
-  "version": "0.0.24",
+  "version": "0.0.26",
   "peerDependencies": {
     "@angular/common": "7.2.10",
     "@angular/core": "7.2.10"
