@@ -14,7 +14,6 @@
   "files": [
     "dist/lib"
   ],
-  "main": "src/public-api.ts",
   "publishConfig": {
     "access": "public"
   },
