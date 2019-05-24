@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/foo",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +11,9 @@
     "prepare": "ng build lib",
     "release": "ng build lib && yarn publish dist/lib"
   },
-  "files": ["dist/lib"],
+  "files": [
+    "dist/lib"
+  ],
   "main": "src/public-api.ts",
   "publishConfig": {
     "access": "public"
