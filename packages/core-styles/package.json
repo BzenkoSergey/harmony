@@ -1,10 +1,11 @@
 {
   "name": "@harmony102/core-styles",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "echo \"this is the build script fot core-styles\""
+    "build": "echo \"this is the build script fot core-styles\"",
+    "release": "yarn publish --non-interactive || true"
   },
   "publishConfig": {
     "access": "public"
