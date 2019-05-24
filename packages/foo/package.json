@@ -1,6 +1,6 @@
 {
   "name": "@harmony102/foo",
-  "version": "0.0.28",
+  "version": "0.0.30",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,8 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prepare": "ng build lib",
-    "release": "ng build lib && yarn publish dist/lib"
+    "release": "ng build lib && yarn publish dist/lib --non-interactive || true"
   },
   "files": [
     "dist/lib"
