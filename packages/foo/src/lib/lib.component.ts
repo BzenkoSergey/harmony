@@ -1,19 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'enl-lib',
-  template: `
-    <p>
-      === wohrkfgh11js!s123123123
-    </p>
-  `,
-  styles: []
+	selector: 'lib-foo',
+	templateUrl: './lib.html'
 })
-export class LibComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class LibComponent {}

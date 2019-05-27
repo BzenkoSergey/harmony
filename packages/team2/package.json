@@ -1,6 +1,6 @@
 {
-  "name": "@harmony102/foo",
-  "version": "0.0.56",
+  "name": "@harmony102/team2",
+  "version": "0.0.57",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,5 +13,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "private": false
+  "main": "./src/public-api.ts",
+  "private": false,
+  "dependencies": {
+    "@harmony102/foo": "0.0.56"
+  }
 }

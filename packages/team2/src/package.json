@@ -1,0 +1,14 @@
+{
+  "name": "@harmony102/team2",
+  "version": "0.0.57",
+  "peerDependencies": {
+    "@angular/common": "7.2.10",
+	"@angular/core": "7.2.10"
+  },
+  "dependencies": {
+	"@harmony102/foo": "0.0.56"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

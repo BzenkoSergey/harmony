@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../dist/lib",
+  "whitelistedNonPeerDependencies": ["@harmony102/foo"],
+  "lib": {
+	"externals": {
+		"@harmony102/foo": "@harmony102/foo/dist/lib/esm2015/public-api.js"
+	},
+	"entryFile": "public-api.ts",
+	"flatModuleFile": "public-api.ts"
+  }
+}
